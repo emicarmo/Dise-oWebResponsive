@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styleIcon.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Proyecto integrador AD</title>
+</head>
+<body>
+
+    <!-- MODAL CONTACTO -->
+    <div id="modal">
+        <span class="icon-cross" onclick="cerrarModal()">CERRAR</span>
+        <form class="container">
+            <div>
+                <input type="email" class="form-control" placeholder="mimail@mimail.com">
+                <div class="form-text">
+                    Por favor no se olvide de ingresar su email
+                </div>
+            </div>
+            <button class="btn btn-primary">Enviar Email</button>
+        </form>
+    </div>
+
+    <!-- NAV -->
+    <nav>
+        <img src="images/AD.png" alt="logo-ad">
+        <div id="desplegable">
+            <span class="icon-cross" onclick="cerrar()"></span>
+            <a href="#">About</a>
+            <a href="#">Testimonios</a>
+            <a href="#" onclick="abrirModal()">Contacto</a>
+        </div>
+        <span class="icon-menu" onclick="abrir()"></span>
+    </nav>
+    
+    <!-- HEADER -->
+    <header>
+        <div class="cuarenta">
+            <h1>creando experiencia y marca</h1>
+            <p>Agencia Digital al servicio del cliente y de su marca.</p>
+            <a class="contactanos" href="#" onclick="abrirModal()">Contactanos</a>
+        </div>
+        <div>
+            <img class="animacion" src="images/img1.png" alt="img-creando-experiencia-marca">
+        </div>
+    </header>
+    
+    <!-- MAIN -->
+    <main>
+        
+        <section>
+            <div>
+                <img class="animacion" src="images/img2.png" alt="img-marca-imagen">
+            </div>
+            <div class="cuarenta">
+                <h2>diseño de marca e imagen</h2>
+                <p>Comunmente Utilizado En La Industria Grafica, De Impresion y Publicación.</p>
+            </div>
+        </section>
+        
+        <section>
+            <div class="cuarenta">
+                <h2>desarrollo de marca</h2>
+                <p>Comunmente Utilizado En La Industria Grafica, De Impresion y Publicación.</p>
+            </div>
+            <div>
+                <img class="animacion" src="images/img3.png" alt="img-desarrollo-marca">
+            </div>
+        </section>
+
+        <section>
+            <h4>Testimonios</h4>
+            <h2>Nuestros clientes hablan</h2>
+            <div>
+                <div class="middle"> <a href="#" onclick="abrirModal();">contactános</a> </div>
+                <img src="images/AndresGarcia.png" alt="foto-andres-garcia">
+                <h3>Andres Garcia</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+            </div>
+            <div>
+                <div class="middle"> <a href="#" onclick="abrirModal();">contactános</a> </div>
+                <img src="images/VeraRodriguez.png" alt="foto-vera-rodriguez">
+                <h3>Vera Rodriguez</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+            </div>
+            <div>
+                <div class="middle"> <a href="#" onclick="abrirModal();">contactános</a> </div>
+                <img src="images/MariaSanchez.png" alt="foto-maria-sanchez">
+                <h3>Maria Sanchez</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+            </div>
+        </section>
+        
+        <section>
+            <div>
+                <img src="images/img4.png" alt="img-forma-parte-nuestro-equipo">
+            </div>
+            <div class="cuarenta">
+                <h3>forma parte de nuestro equipo</h3>
+                <p>Visita nuestro perfil de LinkedIn</p>
+                <a class="contactanos" href="#" onclick="abrirModal()">Contactanos</a>
+            </div>
+        </section>
+    
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <ul>
+            <li>Redes</li>
+            <li>LinkedIn</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twiter</li>
+        </ul>
+        <ul>
+            <li>Agencia Digital</li>
+            <li>Creando Experiencias</li>
+        </ul>
+        <p>@Todos los derechos reservados</p>
+    </footer>
+    
+    <!-- ARCHIVO JS  -->
+    <script src="js/script.js"></script>
+</body>
+</html>

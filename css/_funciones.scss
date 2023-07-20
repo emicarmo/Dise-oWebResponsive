@@ -1,0 +1,27 @@
+@mixin pesoFuente($numero){
+    font-weight: $numero;
+}
+
+@mixin borde($numero, $tipo, $color){
+    border: $numero $tipo $color;
+}
+
+@mixin posicion($valor){
+    position: $valor;
+}
+
+@mixin mostrar($alineacion1, $alineacion2, $alineacion3){
+    display: $alineacion1;
+    justify-content: $alineacion2;
+    align-items: $alineacion3;
+}
+
+@mixin gradiante($forma, $valor1, $valor2, $color, $color2){
+    background-image: radial-gradient($forma at $valor1 $valor2, $color, $color2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin transicion($propiedad, $tiempo){
+    transition: $propiedad $tiempo;
+}
